@@ -10,7 +10,7 @@ def take_input(player_token):
     valid = False
     while not valid:
         player_answer = input("Куда поставим " + player_token + "? ")
-        if player_answer in ['1' ,'2' ,'3' ,'4' ,'5' ,'6' ,'7' ,'8' ,'9']:
+        if player_answer in ['1','2','3','4','5','6','7','8','9']:
             player_answer = int(player_answer)
         else:
             print("Некорректный ввод. Введите число от 1 до 9")
